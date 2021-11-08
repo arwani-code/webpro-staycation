@@ -13,7 +13,7 @@
           bg-light bg-white
           pt-lg-40
           pb-lg-40
-          pt-30
+          pt-50
           pb-50
         "
       >
@@ -86,7 +86,7 @@
       <div class="container-xxl container-fluid">
         <div class="row gap-lg-0 gap-5">
           <div class="col-lg-6 col-12 my-auto">
-            <p class="text-support text-lg color-palette-2">Destinasi</p>
+            <p class="text-support text-lg color-palette-2">Staycation</p>
             <h1 class="header-title color-palette-1 fw-bold">
             Forget, Busy Work 
               <br class="d-sm-block d-none" />

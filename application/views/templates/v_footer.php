@@ -103,16 +103,16 @@
                   <ul class="list-unstyled">
                     <li class="mb-6">
                       <a
-                        href="mailto: hi@store.gg"
+                        href="mailto: hi@staycation.cc"
                         class="text-lg color-palette-1 text-decoration-none"
-                        >hi@vacation.vv</a
+                        >hi@staycation.cc</a
                       >
                     </li>
                     <li class="mb-6">
                       <a
-                        href="mailto: team@store.gg"
+                        href="mailto: team@staycation.gg"
                         class="text-lg color-palette-1 text-decoration-none"
-                        >team@vacation.vv</a
+                        >team@staycation.cc</a
                       >
                     </li>
                     <li class="mb-6">

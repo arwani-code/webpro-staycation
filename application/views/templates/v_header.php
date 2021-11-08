@@ -15,9 +15,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/homepage.css" />
-    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/utilities.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/detail.css" />
     <link rel="stylesheet" href="<?= base_url(); ?>assets/css/checkout.css" />
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/utilities.css " />
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
