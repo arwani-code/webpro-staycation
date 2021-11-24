@@ -2,11 +2,11 @@
             <div class="content pt-50 pb-30 ps-30">
                 <div class="user text-center pb-50 pe-30">
                     <img src="<?= base_url(); ?>assets/img/Header-user.png" width="90" height="90" class="img-fluid mb-20 rounded-circle" />
-                    <h2 class="fw-bold text-xl color-palette-1 m-0">Shayna Anne</h2>
+                    <h2 class="fw-bold text-xl color-palette-1 m-0">Admin</h2>
                     <p class="color-palette-2 m-0">shayna@anne.com</p>
                 </div>
                 <div class="menus">
-                    <div class="item mb-30">
+                    <div class="item mb-30 active">
                         <svg class="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M21.9033 14.7502H14.9033V21.7502H21.9033V14.7502Z" stroke="#7E8CAC"
@@ -19,7 +19,8 @@
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         <p class="item-title m-0">
-                            <a href="" class="text-lg text-decoration-none">Overview</a>
+                            <a href="<?= base_url("admin_controller/"); ?>
+                            " class="text-lg text-decoration-none">Overview</a>
                         </p>
                     </div>
                     <div class="item mb-30">
@@ -35,7 +36,8 @@
                                 stroke-linejoin="round" />
                         </svg>
                         <p class="item-title m-0">
-                            <a href="../member/transactions.html" class="text-lg text-decoration-none">Transactions</a>
+                            <a href="<?= base_url("admin_controller/transaction"); ?>
+                            " class="text-lg text-decoration-none">Transactions</a>
                         </p>
                     </div>
                     <div class="item mb-30">
@@ -46,7 +48,8 @@
                                 stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                         <p class="item-title m-0">
-                            <a href="" class="text-lg text-decoration-none">Messages</a>
+                            <a href="<?= base_url("admin_controller/booking"); ?>
+                            " class="text-lg text-decoration-none">Booking</a>
                         </p>
                     </div>
                     <div class="item mb-30">
@@ -66,28 +69,8 @@
                             </defs>
                         </svg>
                         <p class="item-title m-0">
-                            <a href="" class="text-lg text-decoration-none">Card</a>
-                        </p>
-                    </div>
-                    <div class="item mb-30">
-                        <svg class="icon me-3" width="25" height="25" viewBox="0 0 25 25" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0)">
-                                <path
-                                    d="M12.9033 15.4141C16.7693 15.4141 19.9033 12.2801 19.9033 8.41406C19.9033 4.54807 16.7693 1.41406 12.9033 1.41406C9.03733 1.41406 5.90332 4.54807 5.90332 8.41406C5.90332 12.2801 9.03733 15.4141 12.9033 15.4141Z"
-                                    stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path
-                                    d="M9.11332 14.3039L7.90332 23.4139L12.9033 20.4139L17.9033 23.4139L16.6933 14.2939"
-                                    stroke="#7E8CAC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0">
-                                    <rect width="24" height="24" fill="white" transform="translate(0.90332 0.414062)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <p class="item-title m-0">
-                            <a href="" class="text-lg text-decoration-none">Rewards</a>
+                            <a href="<?= base_url("admin_controller/bank"); ?>
+                            " class="text-lg text-decoration-none">Bank</a>
                         </p>
                     </div>
                     <div class="item mb-30">

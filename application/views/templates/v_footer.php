@@ -194,7 +194,7 @@
                     </div>
                   <div class="modal-footer">
                     <button type="button" style="background-color: #adb5bd;" class="btn rounded-pill text-white border-0" data-bs-dismiss="modal">Kembali</button>
-                    <button type="submit" style="background-color: #6610f2;" class="btn rounded-pill text-white border-1">Checkout</button>
+                    <button type="submit" style="background-color: #6610f2;" class="btn rounded-pill text-white border-1">Booking</button>
                   </div>
                 </form>
              </div>

@@ -1,7 +1,8 @@
 <section class="sign-in mx-auto">
         <div class="row">
             <div class="col-xxl-5 col-lg-6 my-auto py-lg-0 pt-lg-50 pb-lg-50 pt-30 pb-47 px-0">
-                <form action="">
+                <form action="<?= base_url("admin_controller/sign_in"); ?>
+                " method="POST">
                     <div class="container mx-auto">
                         <div class="pb-50">
                             <a class="navbar-brand" href="../index.html">
@@ -24,39 +25,38 @@
                             </a>
                         </div>
                         <h2 class="text-4xl fw-bold color-palette-1 mb-10">Sign In</h2>
-                        <p class="text-lg color-palette-1 m-0">Masuk untuk melakukan proses top up</p>
-                        <div class="pt-50">
-                            <label for="email" class="form-label text-lg fw-medium color-palette-1 mb-10">Email
-                                Address</label>
-                            <input type="email" class="form-control rounded-pill text-lg" id="email" name="email"
-                                aria-describedby="email" placeholder="Enter your email address">
+                        <p class="text-lg color-palette-1 m-0"></p>
+                        <?= $this->session->flashdata('message'); ?>
+                        <div class="pt-40">
+                            <label for="username" 
+                            class="form-label text-lg fw-medium color-palette-1 mb-10">Username</label>
+                            <input type="text" class="form-control username rounded-pill text-lg" style="border: 1px solid #0c145a;
+                            padding: 0.75rem 1.625rem;
+                            color: #0c145a;" id="username" name="username"
+                                aria-describedby="username" placeholder="Enter your username">
+                                <?= form_error("username", "<div class='text-danger small ml-2'>", "</div>"); ?>
                         </div>
                         <div class="pt-30">
                             <label for="password"
                                 class="form-label text-lg fw-medium color-palette-1 mb-10">Password</label>
                             <input type="password" class="form-control rounded-pill text-lg" id="password"
                                 name="password" aria-describedby="password" placeholder="Your password">
+                                <?= form_error("password", "<div class='text-danger small ml-2'>", "</div>"); ?>
                         </div>
                         <div class="button-group d-flex flex-column mx-auto pt-50">
-                            <a class="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16"
-                                href="../index.html" role="button">Continue to Sign In</a>
-                            <!-- <button type="submit"
+                           <button type="submit"
                                 class="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16"
-                                role="button">Continue to Sign In</button> -->
-                            <a class="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill"
-                                href="../src/sign-up.html" role="button">Sign
-                                Up</a>
+                                role="button">Continue to Sign In</button>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="col-xxl-7 col-lg-6 bg-blue text-center pt-lg-145 pb-lg-145 d-lg-block d-none">
                 <img src="../assets/img/image-mostpicked-2.jpg" width="520" height="" class="img-fluid pb-50 rounded-3" alt="">
-                <h2 class="text-4xl fw-bold text-white mb-30">Win the battle.<br>
-                    Be the Champion.</h2>
-                <p class="text-white m-0">Kami menyediakan jutaan cara untuk<br> membantu players menjadi<br>
-                    pemenang
-                    sejati</p>
+                <h2 class="text-4xl fw-bold text-white mb-30">Hello.<br>
+                    Manage Booking Staycation.</h2>
+                <p class="text-white m-0">Pekerjaan akan semakin mudah<br> dengan management waktu<br>
+                    yang ada</p>
             </div>
         </div>
     </section>

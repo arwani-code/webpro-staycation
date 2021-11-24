@@ -100,18 +100,21 @@
                         <h2 class="text-4xl fw-bold color-palette-1 text-start mb-10 mt-10"><?= $detail->name; ?></h2>
                         <p class="text-lg color-palette-2 mb-2"><?= $detail->city; ?>
                             , <?= $detail->country; ?></p>
-                        <p class="text-2xl color-palette-1 mb-0">Harga: <span class="color-palette-4"><?= $detail->price; ?>k / night</span> 
+                        <p class="text-2xl color-palette-1 mb-0">Harga: <span class="color-palette-4"> IDR <?= number_format($detail->price,3,'.','.'); ?> / night</span> 
+                        </p>
+                        <p class="text-2xl color-palette-1 mt-4">BCA. <span>3983748758 / PT Staycation Indonesia</span> 
                         </p>
                     </div>
                     <hr>
                         <div class="d-sm-block d-flex flex-column w-100">
                             <button type="button"
                             data-bs-toggle="modal" data-bs-target="#exampleModal"
-                                class="btn btn-submit mt-4 rounded-pill fw-medium text-white border-0 text-lg">Continue</button>
+                                class="btn btn-submit mt-2 rounded-pill fw-medium text-white border-0 text-lg">Continue</button>
                         </div>
                 </div>
+            </div>
                 <div class="d-sm-block d-flex flex-column w-80">
-                    <h5 class="text-xl color-palette- text-start mt-5">About the place</h5>
+                    <h5 class="text-xl color-palette- text-start mt-2">About the place</h5>
                     <p class="text-muted color-palette-1">
                       <?= $detail->description; ?>
                 </p>

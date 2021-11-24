@@ -73,11 +73,11 @@
             <div class="w-100 pt-50">
                 <a class="btn btn-confirm-payment rounded-pill fw-medium text-white border-0 text-lg"
                     href="<?= base_url(""); ?>public_controller/complete_checkout/<?= $booking->id_user; ?>
-                    " role="button">Confirm</a>
+                    " role="button">Success</a>
                 <a class="btn btn-confirm-payment btn-primary rounded-pill fw-medium text-white border-0 text-lg mx-5"
                 style="background-color: #FFC35D"
                     href="<?= base_url(""); ?>public_controller/cetak/<?= $booking->id_user; ?>
-                    " role="button">Cetak</a>
+                    " role="button">Cetak Bukti</a>
             </div>
             
         <?php endforeach; ?>
